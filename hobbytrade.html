@@ -1,54 +1,62 @@
-<!-- HobbyTrade Project -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>HobbyTrade 📱 | Krushna Thakkar</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HobbyTrade 📱 | Krushna Thakkar</title>
+  <link rel="stylesheet" href="hobbytrade.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-<h1>HobbyTrade 📱</h1>
-<p>Marketplace for trading hobbies, ideas, and skills.</p>
-</header>
 
-<main class="content">
-<section>
-<h2>Overview</h2>
-<p>HobbyTrade is a full-stack mobile platform enabling hobbyists to explore, trade, and collaborate. With React Native and MongoDB backend, it supports multi-step onboarding, Stripe payments, and deep-link enabled profile navigation.</p>
-</section>
+  <!-- 🔙 Back -->
+  <a href="index.html" class="back-btn">← Back</a>
 
-<section>
-<h2>Tech Stack</h2>
-<ul>
-<li>React Native + MongoDB</li>
-<li>Node.js, Express, JWT</li>
-<li>Stripe API, Deep Linking</li>
-</ul>
-</section>
+  <!-- 📌 Header -->
+  <header class="project-header">
+    <h1>📱 HobbyTrade</h1>
+    <p class="subtitle">Marketplace for trading hobbies, ideas, and skills</p>
+  </header>
 
-<section>
-  <h2>Live Preview</h2>
-  <p>
-    <a href="https://hobbytrade.onrender.com/" target="_blank" rel="noopener noreferrer">
-      View HobbyTrade Live Website
-    </a>
-  </p>
-</section>
+  <!-- 📌 Main Project Section -->
+  <main class="project-grid">
+    <div class="project-card">
+      <img src="assets/ht_ss.png" alt="HobbyTrade Screenshot" class="project-img">
 
+      <div class="project-info">
+        <h2>🔍 Overview</h2>
+        <p>
+          HobbyTrade is a full-stack mobile platform enabling hobbyists to explore, trade, and collaborate. 
+          With React Native and a MongoDB backend, it supports multi-step onboarding, guest browsing, 
+          Stripe payments, and deep-link enabled profile navigation.
+        </p>
 
-<section>
-<h2>Links</h2>
-<p>
-<a href="https://github.com/kru2710shna/hobbytrade" target="_blank">GitHub Repo</a> |
-<a href="index.html"> Back to Home</a>
-</p>
-</section>
-</main>
+        <h2>🛠️ Tech Stack</h2>
+        <ul>
+          <li>React Native + MongoDB</li>
+          <li>Node.js + Express.js + JWT Auth</li>
+          <li>Stripe API + Deep Linking</li>
+        </ul>
 
-<footer>
-<p>Made by Krushna | Inspired by Pinterest</p>
-</footer>
+        <h2>🌐 Live Preview</h2>
+        <p>
+          <a href="https://hobbytrade.onrender.com/" target="_blank" rel="noopener noreferrer" class="live-link">
+            🚀 View HobbyTrade Live
+          </a>
+        </p>
+
+        <h2>🔗 Links</h2>
+        <p>
+          <a href="https://github.com/kru2710shna/hobbytrade" target="_blank" class="github-link">GitHub Repo</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- 📌 Footer -->
+  <footer>
+    <p>Made with ❤️ by Krushna | Inspired by Pinterest</p>
+  </footer>
+
 </body>
 </html>

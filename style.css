@@ -404,6 +404,80 @@ footer a:hover {
   color: #444;
 }
 
+/* 🌐 Base Styling */
+.certification-body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* 📌 Certification Grid Layout (Masonry-like) */
+.certification-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* 📄 Each Certification Card */
+.certification-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certification-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* 🖼️ Image at the Top */
+.certification-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+/* 📋 Content of the Card */
+.certification-card-body {
+  padding: 1rem 1.2rem;
+}
+
+.certification-card-body h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.certification-card-body p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.4rem 0 1rem;
+}
+
+/* 🔗 Credential Link */
+.certification-card-body a {
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  background-color: #6a5acd; /* Soft purple */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease;
+}
+
+.certification-card-body a:hover {
+  background-color: #483d8b;
+}
 
 
 /* RESPONSIVE */
@@ -430,3 +504,24 @@ footer a:hover {
     flex-direction: column;
   }
 }
+
+.back-button {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.back-button a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #0077b6;
+  border: 1px solid #0077b6;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.back-button a:hover {
+  background: #0077b6;
+  color: #fff;
+}
+

@@ -1,0 +1,88 @@
+/* 🎓 General Page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #004aad;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* 🎓 Education Grid */
+.edu-grid {
+  column-count: 3;
+  column-gap: 1.5rem;
+  padding: 2rem;
+}
+
+.edu-card {
+  display: inline-block;
+  background: white;
+  border-radius: 12px;
+  margin: 0 0 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+.edu-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 160px;
+  object-fit: contain;
+  background: #f9f9f9;
+  padding: 1rem;
+}
+
+.edu-body {
+  padding: 1rem;
+}
+
+.edu-body h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+  color: #004aad;
+}
+
+.edu-body p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* 🎓 Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f1f1f1;
+  margin-top: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #004aad;
+  font-weight: bold;
+}

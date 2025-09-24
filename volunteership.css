@@ -1,0 +1,98 @@
+/* 🌟 Volunteership Page CSS */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+/* 🟪 Pinterest Grid */
+.volunteership-grid {
+  column-count: 3;
+  column-gap: 1.2rem;
+  padding: 2rem;
+}
+
+.volunteership-card {
+  background: white;
+  display: inline-block;
+  margin: 0 0 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.volunteership-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.volunteership-card img {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.volunteership-card-body {
+  padding: 1rem;
+}
+
+.volunteership-card-body h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #444;
+}
+
+.volunteership-card-body p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.volunteership-card-body a {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0.5rem 1rem;
+  background: #ff758c;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.volunteership-card-body a:hover {
+  background: #ff4b6e;
+}
+
+/* 📱 Responsive */
+@media (max-width: 900px) {
+  .volunteership-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .volunteership-grid {
+    column-count: 1;
+  }
+}

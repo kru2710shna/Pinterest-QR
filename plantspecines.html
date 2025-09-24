@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plant Species Identification | Krushna Thakkar</title>
+  <link rel="stylesheet" href="plantspecies.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔙 Back Button -->
+  <a href="index.html" class="back-btn">← Back</a>
+
+  <!-- 📌 Header -->
+  <header class="project-header">
+    <h1>🌸 Automated Plant Species Identification</h1>
+    <p class="subtitle">Classifying Iris flowers using RandomForestClassifier</p>
+  </header>
+
+  <!-- 📌 Project Card -->
+  <section class="project-grid">
+    <div class="project-card">
+      <img src="assets/plantspecies.png" alt="Plant Species Identification System" class="project-img">
+      <div class="project-info">
+        <h2>Scenario</h2>
+        <p>
+          A botanical research center is working on a system to automatically classify
+          different species of flowers based on physical characteristics such as
+          <b>petal length, petal width, sepal length, and sepal width</b>.
+        </p>
+
+        <h2>Problem</h2>
+        <p>
+          Botanists need to quickly and accurately identify species of the Iris plant
+          (setosa, versicolor, virginica). Manual identification is time-consuming
+          and error-prone.
+        </p>
+
+        <h2>Solution: RandomForestClassifier</h2>
+        <p>
+          The <b>RandomForestClassifier</b> builds multiple decision trees and merges
+          them to improve accuracy and stability. It predicts flower species from
+          sepal and petal measurements.
+        </p>
+
+        <h2>Steps</h2>
+        <ul>
+          <li>🌱 <b>Data Collection:</b> 150 Iris samples with four features each.</li>
+          <li>🤖 <b>Model Training:</b> Train RandomForest on sepal & petal features.</li>
+          <li>🔮 <b>Prediction:</b> Classify new samples based on learned patterns.</li>
+          <li>📊 <b>Evaluation:</b> Accuracy, precision, recall, and F1-score.</li>
+        </ul>
+
+        <h2>Algorithm Details</h2>
+        <p>
+          Random Forest trains multiple decision trees on random subsets of data.
+          Each tree votes on the prediction, and the final class is chosen by majority vote.
+        </p>
+        <ul>
+          <li>✅ High accuracy through ensemble learning.</li>
+          <li>🛡️ Reduced overfitting compared to single decision trees.</li>
+          <li>📈 Provides feature importance insights.</li>
+        </ul>
+
+        <h2>GitHub</h2>
+        <a href="https://github.com/kru2710shna/Automated-Plant-Species-Identification-System" 
+           target="_blank" class="github-link">🔗 View Repository</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

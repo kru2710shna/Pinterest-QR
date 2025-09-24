@@ -1,0 +1,88 @@
+/* Chest X-ray Classification Page Styles */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 16px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.back-btn:hover {
+  background: #444;
+  color: #fff;
+}
+
+/* Header */
+.project-header {
+  text-align: center;
+  padding: 20px;
+}
+.project-header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.project-header .subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Layout */
+.project-grid {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.project-card {
+  width: 90%;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+.project-img {
+  width: 100%;
+  display: block;
+}
+.project-info {
+  padding: 20px;
+}
+.project-info h2 {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color: #222;
+}
+.project-info p, .project-info li {
+  line-height: 1.6;
+  color: #444;
+}
+.project-info ul {
+  padding-left: 20px;
+}
+.github-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: #d63384;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+.github-link:hover {
+  background: #a02060;
+}

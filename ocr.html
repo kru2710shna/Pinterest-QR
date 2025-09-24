@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document Text Detection | Krushna Thakkar</title>
+  <link rel="stylesheet" href="ocr.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔙 Back Button -->
+  <a href="index.html" class="back-btn">← Back</a>
+
+  <!-- 📌 Header -->
+  <header class="project-header">
+    <h1>📄 Document Text Detection (OCR)</h1>
+    <p class="subtitle">Extracting text from images & documents using ML, OpenCV, Tesseract</p>
+  </header>
+
+  <!-- 📌 Project Card -->
+  <section class="project-grid">
+    <div class="project-card">
+      <img src="assets/ocr.png" alt="OCR Project Screenshot" class="project-img">
+      <div class="project-info">
+        <h2>Overview</h2>
+        <p>
+          This project implements OCR (Optical Character Recognition) to detect and extract text 
+          from images and documents. It uses OpenCV for image preprocessing and Tesseract for text recognition, 
+          with a Flask backend to power the web interface.
+        </p>
+
+        <h2>Workflows & Steps</h2>
+        <ul>
+          <li>🖼️ Data Preparation: Load and preprocess images (resize, denoise).</li>
+          <li>🔍 Text Region Detection: Use contours, thresholding, bounding boxes.</li>
+          <li>🧰 Text Extraction: Use Tesseract OCR to extract characters/words.</li>
+          <li>🛠️ Postprocessing: Clean extracted text (remove noise, correct spacing).</li>
+          <li>🌐 Web Backend: Flask handles image upload, triggers OCR pipeline, returns results.</li>
+        </ul>
+
+        <h2>Technologies Used</h2>
+        <p>Python | OpenCV | Tesseract | Flask | Gunicorn</p>
+
+        <h2>GitHub</h2>
+        <a href="https://github.com/kru2710shna/Document-Text-Detection" 
+           target="_blank" class="github-link">🔗 View Repository</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Krushna Thakkar | Pinterest Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="top-nav">
+    <a class="tab active" href="index.html">For You</a>
+    <a class="tab" href="https://www.linkedin.com/in/krushnathakkar/" target="_blank">LinkedIn</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Krushna Thakkar</h1>
+    <p>Inspiration Engineered 🚀</p>
+  </header>
+
+  <!-- Masonry Grid -->
+  <main class="grid">
+
+    <!-- Project 1 -->
+    <a href="smokecrypt.html" class="card">
+      <div class="image-wrapper">
+        <img src="assets/smokecrypot_ss.png" alt="SmokeCrypt">
+        <div class="hover-overlay">
+          <button class="hover-btn">View</button>
+          <button class="hover-btn heart">❤</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <h3>SmokeCrypt 🔒</h3>
+        <p>Entropy from smoke + real cryptography.</p>
+        <p>Machine Learning | Computer Vision | Cryptography</p>
+      </div>
+    </a>
+
+    <!-- Project 2 -->
+    <a href="hobbytrade.html" class="card">
+      <div class="image-wrapper">
+        <img src="assets/ht_ss.png" alt="HobbyTrade">
+        <div class="hover-overlay">
+          <button class="hover-btn">View</button>
+          <button class="hover-btn heart">❤</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <h3>HobbyTrade 📱</h3>
+        <p>Marketplace for trading hobbies + ideas.</p>
+        <p>React Native | MongoDB | Stripe</p>
+      </div>
+    </a>
+
+    <!-- Project 3 -->
+    <a href="robbery.html" class="card">
+      <div class="image-wrapper">
+        <img src="assets/rd.png" alt="Robbery Detection AI">
+        <div class="hover-overlay">
+          <button class="hover-btn">View</button>
+          <button class="hover-btn heart">❤</button>
+        </div>
+      </div>
+      <div class="card-body">
+        <h3>Robbery Detection AI</h3>
+        <p>YOLOv8 pipeline for real-time anomaly detection.</p>
+        <p>Python | OpenCV | Pose Estimation</p>
+      </div>
+    </a>
+
+
+
+
+
+
+    
+  </main>
+
+  <!-- Bottom Nav -->
+  <nav class="bottom-nav">
+    <button onclick="location.href='profile.html'">
+      <img src="assets/pinterest-icom.png" alt="Home" class="nav-icon">
+    </button>
+    <button onclick="openModal()">
+      <img src="assets/search.jpeg" alt="Search" class="nav-icon">
+    </button>
+    <button onclick="location.href='profile.html'">
+      <img src="assets/user-icon.png" alt="Profile" class="nav-icon">
+    </button>
+  </nav>
+
+  <!-- Search Modal -->
+  <div class="modal" id="searchModal">
+    <div class="modal-content">
+      <span onclick="closeModal()" class="close-btn">&times;</span>
+      <h3>Select a Category</h3>
+      <ul class="modal-options">
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="techblogs.html">Tech Blogs</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="volunteership.html">Volunteership</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      <a href="https://github.com/kru2710shna" target="_blank">GitHub</a> |
+      <a href="resume.pdf" target="_blank">Resume</a>
+    </p>
+    <small>Made with ❤️ | Inspired by Pinterest</small>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    function openModal() {
+      document.getElementById("searchModal").style.display = "block";
+    }
+    function closeModal() {
+      document.getElementById("searchModal").style.display = "none";
+    }
+  </script>
+
+</body>
+</html>

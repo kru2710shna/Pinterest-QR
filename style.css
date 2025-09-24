@@ -333,6 +333,79 @@ footer a:hover {
   text-decoration: underline;
 }
 
+
+/* Experience Page Styles (Pinterest Layout) */
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin: 40px auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
+
+.exp-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exp-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.exp-card .card-header {
+  background-color: #f9f9f9;
+  padding: 18px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.exp-card .card-header h3 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: #d10000;
+}
+
+.exp-card .card-header span {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.exp-card .card-body {
+  padding: 20px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.exp-card .card-footer {
+  padding: 16px 20px;
+  font-size: 0.85rem;
+  color: #999;
+  text-align: right;
+  border-top: 1px solid #eee;
+}
+
+.exp-card .badge {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  background-color: #f1f1f1;
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: #444;
+}
+
+
+
 /* RESPONSIVE */
 @media (max-width: 1024px) {
   .grid {

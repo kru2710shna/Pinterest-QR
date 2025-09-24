@@ -1,97 +1,129 @@
-# 🩻 Chest X-ray Image Classification
+# 📌 Krushna Thakkar – Pinterest Style Portfolio
 
-This project focuses on developing a **multi-label image classification model** to predict pathological conditions from frontal chest X-ray images. It leverages deep learning to provide accurate predictions that can assist clinicians in diagnosing various diseases.
-
----
-
-## 🚀 Overview
-
-- Uses the **ChestX-ray8 dataset**, which contains 108,948 images from 32,717 patients.  
-- Each image comes with multiple text-mined labels, enabling classification of **14 disease categories**.  
-- Goal: Build a robust classifier to detect multiple conditions simultaneously.
+A **Pinterest-inspired personal portfolio website** built with **Vanilla HTML, CSS, and JavaScript**.  
+The site showcases my **projects, certifications, education, volunteership, and tech blogs** in a clean masonry layout, styled to feel like the Pinterest mobile/web app.
 
 ---
 
-## 📊 Workflow
+## ✨ Features
 
-1. **Data Acquisition & Preprocessing**  
-   - Resize images to a fixed input size.  
-   - Normalize pixel values.  
-   - Apply augmentation (rotation, flips, shifts).  
+- 🖼️ **Pinterest-style grid** for projects and certifications.  
+- 🔝 **Top navigation** with “For You” and “LinkedIn” tabs.  
+- 🔍 **Bottom navigation bar** with:  
+  - Pinterest logo → Profile page  
+  - Search button → Opens modal with quick categories (Experience, Certifications, Tech Blogs, Volunteership, Education)  
+  - Profile icon → Profile page  
 
-2. **Feature Extraction**  
-   - Convolutional Neural Networks (CNNs) for hierarchical feature learning.  
-
-3. **Model Architecture**  
-   - Multi-label classification network.  
-   - Dense layers with sigmoid activations for multiple outputs.  
-
-4. **Training**  
-   - Optimizer: Adam / RMSProp.  
-   - Loss: Binary Cross Entropy.  
-   - Evaluation metrics: Accuracy, Precision, Recall, AUC.  
-
-5. **Evaluation**  
-   - Measure performance on validation/test sets.  
-   - Visualize ROC curves and confusion matrices.  
+- 📂 **Project Pages** – Each project has its own detailed HTML page.  
+- 📜 **Certifications Section** – Masonry grid of certifications with credential links.  
+- 🎓 **Education Section** – Academic journey with institution cards.  
+- 🤝 **Volunteership Section** – Volunteering roles and contributions.  
+- ✍️ **Tech Blogs** – Linked with Medium blog posts and summaries.  
+- 👤 **Profile Page** – Pinterest-style user profile with bio, stats, quick links, and post grid.  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python**
-- **TensorFlow / Keras**
-- **OpenCV**
-- **NumPy, Pandas, Matplotlib**
-- **Scikit-learn**
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript  
+- **Design Style:** Pinterest-inspired UI/UX  
+- **Icons:** Unicode emojis + custom assets  
+- **Deployment:** Compatible with Netlify, Vercel, GitHub Pages  
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
-\`\`\`
-Chest-X-ray-Image-Classification/
-│── data/                # Dataset (ChestX-ray8 or sample subset)
-│── models/              # Saved models / weights
-│── notebooks/           # Training & evaluation notebooks
-│── utils/               # Helper functions (preprocessing, plotting)
-│── chest.html           # Project page (Pinterest-style)
-│── chest.css            # Stylesheet
-│── README.md            # Project documentation
-\`\`\`
+```
+Pinterest-Portfolio/
+│── index.html              # Home (For You page)
+│── style.css               # Global styles
+│── script.js               # Optional JS interactivity
+│── profile.html            # Profile page
+│── certification.html       # Certifications page
+│── certification.css
+│── education.html          # Education page
+│── education.css
+│── volunteership.html      # Volunteership page
+│── volunteership.css
+│── techblogs.html          # Tech Blogs page
+│── techblogs.css
+│── projects/               # Individual project pages
+│     ├── smokecrypt.html
+│     ├── hobbytrade.html
+│     ├── robbery.html
+│     ├── olympic.html
+│     ├── fraud.html
+│     ├── anncnn.html
+│     ├── plantspecies.html
+│     ├── medrec.html
+│     ├── nn.html
+│     ├── ocr.html
+│     ├── kidney.html
+│     ├── chest.html
+│     └── (more…)
+│── assets/                 # Images, screenshots, icons
+│── README.md               # Project documentation
+```
 
 ---
 
-## 📈 Results
+## 🚀 Getting Started
 
-- Achieved high performance in predicting multiple disease categories.  
-- Metrics reported: **Accuracy, AUC, Precision, Recall, F1-score**.  
-- Visualization of predictions and label distributions included in notebooks.  
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/kru2710shna/pinterest-portfolio.git
+cd pinterest-portfolio
+```
+
+2. **Open in browser**
+
+Simply open `index.html` in any modern browser.  
+No build steps required since it’s a static website.
+
+3. **(Optional) Live Server**
+
+For development, use VS Code Live Server:
+
+```bash
+npm install -g live-server
+live-server
+```
 
 ---
 
-## 📸 Demo Screenshot
+## 📸 Screenshots
 
-![Chest X-ray Example](assets/chest_xray.png)
+_Add sample screenshots of the website sections here:_  
+- Home Page (For You)  
+- Project Cards Grid  
+- Certifications Masonry Layout  
+- Profile Page  
 
 ---
 
 ## 🔗 Links
 
-- **GitHub Repo:** [Chest-X-ray-Image-Classification](https://github.com/kru2710shna/Chest-X-ray-Image-Classification)
+- 🌐 **Portfolio Website** – [Live Link (if deployed)](https://your-deployment-link)  
+- 🧑‍💻 **GitHub Profile** – [Krushna Thakkar](https://github.com/kru2710shna)  
+- 💼 **LinkedIn** – [Krushna Thakkar](https://www.linkedin.com/in/krushnathakkar/)  
+- ✍️ **Medium Blogs** – [@krushnakr9](https://medium.com/@krushnakr9)  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!  
-1. Fork the repository.  
-2. Create a new branch (\`feature-xyz\`).  
-3. Commit your changes.  
-4. Open a Pull Request.  
+Pull requests and suggestions are welcome!  
+To contribute:  
+1. Fork this repository.  
+2. Create a new branch (`feature-xyz`).  
+3. Commit changes.  
+4. Submit a Pull Request.  
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**.  
+Feel free to use and customize it for your own portfolio!

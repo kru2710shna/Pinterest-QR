@@ -258,7 +258,7 @@ header p {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #fff;
+  background: transparent;
   border-top: 1px solid var(--light-gray);
   display: flex;
   justify-content: space-around;

@@ -86,3 +86,16 @@ body {
 .github-link:hover {
   background: #005bb5;
 }
+
+/* ✅ Mobile-first responsiveness */
+@media (max-width: 480px) {
+  .project-header h1 {
+    font-size: 1.4rem;
+  }
+  .project-info {
+    padding: 12px;
+  }
+  .project-info h2 {
+    font-size: 1rem;
+  }
+}

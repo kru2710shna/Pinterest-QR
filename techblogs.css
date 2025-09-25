@@ -93,3 +93,56 @@ header p {
 .footer a:hover {
   text-decoration: underline;
 }
+
+/* 📱 Mobile (Phone Screen) Tweaks */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  .blog-container {
+    grid-template-columns: 1fr; /* single column */
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .blog-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  .blog-card img {
+    height: 150px;
+  }
+
+  .blog-content {
+    padding: 12px;
+  }
+
+  .blog-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .blog-content p,
+  .blog-content .desc {
+    font-size: 0.9rem;
+    line-height: 1.3;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+}

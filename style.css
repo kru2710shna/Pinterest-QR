@@ -525,3 +525,136 @@ footer a:hover {
   color: #fff;
 }
 
+
+/* 📱 Phone Screen Tweaks */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 0 0.5rem;
+  }
+
+  header {
+    padding: 1.5rem 0.5rem 1rem;
+  }
+
+  header h1 {
+    font-size: 1.3rem;
+  }
+
+  header p {
+    font-size: 0.85rem;
+  }
+
+  .top-nav {
+    flex-direction: column;
+    padding: 0.3rem 0;
+  }
+
+  .tab {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+  }
+
+  .grid {
+    column-count: 1;
+    padding: 1rem 0;
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
+  .card-body h3 {
+    font-size: 1rem;
+  }
+
+  .card-body p {
+    font-size: 0.85rem;
+  }
+
+  .profile-header {
+    padding: 20px 10px 10px;
+  }
+
+  .profile-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .profile-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+  }
+
+  .profile-stats {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.8rem;
+  }
+
+  .pins-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px;
+    padding: 0 10px 60px;
+  }
+
+  .pin-title {
+    font-size: 0.85rem;
+  }
+
+  .bottom-nav {
+    padding: 0.4rem 0;
+  }
+
+  .nav-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .modal-content {
+    margin: 30% auto;
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .experience-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+    gap: 16px;
+  }
+
+  .exp-card .card-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .exp-card .card-body {
+    font-size: 0.85rem;
+  }
+
+  .certification-container {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .certification-card-body h3 {
+    font-size: 1rem;
+  }
+
+  .certification-card-body p {
+    font-size: 0.85rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+  }
+}
+
